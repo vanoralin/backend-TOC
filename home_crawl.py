@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 filecsvname = "series_titles.csv"
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-CSV_FILE_PATH = BASE_DIR / "backend" / filecsvname
+CSV_FILE_PATH = BASE_DIR / filecsvname
 
 # ===================== Headers =====================
 HEADERS = {
